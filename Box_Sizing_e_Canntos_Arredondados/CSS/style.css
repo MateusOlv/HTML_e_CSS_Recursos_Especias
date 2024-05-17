@@ -1,0 +1,23 @@
+#caixa{
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+    background: #b9c941;
+    padding: 50px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; /*para navegadores mais antigos*/
+    -moz-box-sizing: border-box; /*para navegadores mais antigos*/
+}
+
+#caixa1{
+    width: 400px;
+    height: 400px;
+    background: #b9c941;
+    padding: 50px;
+    border-radius: 50px;
+    /*400px de largura + 50px de padding em cada lado = 400 + (50 x 2) = 500px*/
+   /* box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;*/
+}
