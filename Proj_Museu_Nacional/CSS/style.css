@@ -66,7 +66,7 @@ nav ul li a:hover{
 #conteudo{
     width: 710px;
     float: left;
-    background: green;
+    margin-bottom: 20px;
 }
 
 aside{
@@ -74,6 +74,7 @@ aside{
     float: right;
     background: #ebe7dd;
     padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 section#visita{
@@ -98,6 +99,37 @@ section#galeria a{
 section#galeria img{
     margin-top: 3px;
     margin-left: 2px;
+}
+
+article#video{
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+article#mapa{
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+
+article#exposicoes{
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px;
+}
+
+article#historia{
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 37px;
+}
+
+h3{
+    color: #227115;
+    font-size: 1.0em; 
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 h4{
@@ -135,4 +167,13 @@ fieldset{
 
 legend{
     display: none;
+}
+
+/* Rodapé
+--------------------*/
+footer{
+    clear: both;
+    padding: 20px 0 30px 0;
+    text-align: center;
+    background: url(../Imagens/fundo-rodape.png) no-repeat center top;
 }
